@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Karimboy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+<header class="site-header">
+         <div class="container">
+            <div class="header-wrapper">
+                <a class="logo-link" href="./index.html">Nodirbek</a>
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li><a class="navbar-link" href="./index.html">Men haqimda</a></li>
+                        <li><a class="navbar-link" href="./family.html">Oilam</a></li>
+                        <li><a class="navbar-link" href="./friend.html">Do'stlarim</a></li>
+                        <li><a class="navbar-link" href="./project.html">Loyihalarim</a></li>
+                        <li><a class="navbar-link" href="https://loyih-nodirbek.netlify.app/">Asosiy Loyiham</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="site-main">
+      <section class="aboutme">
+        <div class="container">
+          <div class="aboutme-wrapper">
+            <div class="aboutme-text-wrapper">
+              <h1 class="aboutme-title">
+                Assalomu alaykum, mening ismim
+                <span class="aboutme-span">Karimboy</span>
+              </h1>
+              <p class="aboutme-desc">
+                Men PDP Juniorning Sergeli filialida 3-oydan beri o'qiyman.
+              </p>
+              <a class="btn-primary" href="#more">Ko'proq ma'lumot</a>
+            </div>
+            <div class="img-box">
+              <img
+                class="aboutme-img"
+                src="./images/photo_2026-01-21_18-13-53.jpg"
+                alt="Karimboy Image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="more" id="more">
+        <div class="container">
+          <div class="more-wrapper">
+            <img
+              class="more-img"
+              src="./images/photo_2026-01-21_18-13-53.jpg"
+              alt="About Me Detail"
+            />
+            <div class="more-texts-wrapper">
+              <h2 class="more-title">
+                Mening to'liq ismim Falonchayev Faloncha Faloncha o'g'li. Men
+                6-maktabning 8-sinfida o'qiyman. IT dan tashqari, Ingliz tili va
+                Matematikaga ham qiziqaman. Bundan tashqari futbolga ham
+                qiziqaman. Yaxshi ko'rgan futbol klubim Barca.
+              </h2>
+              <a class="btn-primary" href="#data">Bog'lanish</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="data" id="data">
+        <div class="container">
+          <h2 class="section-title">Men bilan bog'lanish</h2>
+          <div class="data-box">
+            <form class="data-form" action="" onsubmit="event.preventDefault()">
+              <div class="form-group">
+                <label>Ism familya</label>
+                <input type="text" placeholder="Ismingizni kiriting" />
+              </div>
+              <div class="form-group">
+                <label>Telefon raqami</label>
+                <input type="tel" placeholder="+998 (__) ___ _ ___" />
+              </div>
+              <div class="form-group">
+                <label>Xabar</label>
+                <textarea
+                  rows="5"
+                  placeholder="Sizning xabaringiz..."
+                ></textarea>
+              </div>
+              <button class="btn-primary">Yuborish</button>
+            </form>
+            <div class="map-card">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d443.767388037983!2d69.33457617835816!3d41.224862698702395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1780605758243!5m2!1sen!2s"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <span class="footer-logo">Karimboy</span>
+          <div class="social-box">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-solid fa-phone"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
